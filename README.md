@@ -57,7 +57,7 @@ SALA()
 Execute o comando `slqlite3 escola.db` para criar/acessar o banco de dados.
 Em seguida, execute o comando `.mode column` para definir o modo de exibição para colunas.
 Execute também `.headers on` para ativar a exibição de cabeçalhos.
-### IMAGEM
+[captura1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/captura1.PNG)
 
 ### 6.2. Criação das Tabelas
 

@@ -38,13 +38,21 @@ Aluno, Professor, Disciplina, Curso, Departamento, Turma e Sala.
 ### 🚧 5.1. Mapeamento do Modelo Conceitual para o Modelo Lógico
 
 DEPARTAMENTO()
+
 DISCIPLINA()
+
 PROFESSOR()
+
 CURSO()
+
 ALUNO()
+
 MATRICULADO()
+
 INSCRITO()
+
 TURMA()
+
 SALA()
 
 ### 6. Modelo Físico

@@ -39,7 +39,7 @@ Aluno, Professor, Disciplina, Curso, Departamento, Turma e Sala.
 
 ### 5.1. Mapeamento do Modelo Conceitual para o Modelo Lógico
 
-🚧
+🚧  
 DEPARTAMENTO()  
 DISCIPLINA()  
 PROFESSOR()  

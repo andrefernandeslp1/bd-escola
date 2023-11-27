@@ -37,15 +37,15 @@ Aluno, Professor, Disciplina, Curso, Departamento, Turma e Sala.
 
 ### 🚧 5.1. Mapeamento do Modelo Conceitual para o Modelo Lógico
 
-DEPARTAMENTO()  
-DISCIPLINA()  
-PROFESSOR()  
-CURSO()  
-ALUNO()  
-MATRICULADO()  
-INSCRITO()  
-TURMA()  
-SALA()  
+DEPARTAMENTO()
+DISCIPLINA()
+PROFESSOR()
+CURSO()
+ALUNO()
+MATRICULADO()
+INSCRITO()
+TURMA()
+SALA()
 
 ### 6. Modelo Físico
 
@@ -55,19 +55,19 @@ Execute o comando `slqlite3 escola.db` para criar/acessar o banco de dados.
 
 ### 6.2. Criação das Tabelas
 
-Acesse o arquivo [`creates.sql`]([creates.sql](https://github.com/andrefernandeslp1/bd-escola/blob/main/creates.sql)) para visualizar os comandos utilizados para a criação das tabelas.
+Acesse o arquivo [`creates.sql`](https://github.com/andrefernandeslp1/bd-escola/blob/main/creates.sql) para visualizar os comandos utilizados para a criação das tabelas.
 
 ### 6.3. Inserção de Dados
 
-Acesse o arquivo [`inserts.sql`]([inserts.sql](https://github.com/andrefernandeslp1/bd-escola/blob/main/inserts.sql)) para visualizar os comandos utilizados para a inserção de dados nas tabelas.
+Acesse o arquivo [`inserts.sql`](https://github.com/andrefernandeslp1/bd-escola/blob/main/inserts.sql) para visualizar os comandos utilizados para a inserção de dados nas tabelas.
 
 ### 6.4. Consultas
 
-Acesse o arquivo [`selects.sql`]([selects.sql](https://github.com/andrefernandeslp1/bd-escola/blob/main/selects.sql)) para visualizar as queries utilizadas para a realização das consultas.
+Acesse o arquivo [`selects.sql`](https://github.com/andrefernandeslp1/bd-escola/blob/main/selects.sql) para visualizar as queries utilizadas para a realização das consultas.
 
-### 🚧 6.4.1. Retorno das Consultas
+### 6.4.1. Retorno das Consultas
 
-# IMAGENS
+# 🚧 IMAGENS
 
 ### 7. Conclusão
 

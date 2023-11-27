@@ -37,17 +37,18 @@ Aluno, Professor, Disciplina, Curso, Departamento, Turma e Sala.
 ![LOGICO](https://github.com/andrefernandeslp1/bd-escola/blob/main/LOGICO.PNG)
 
 
-### 🚧 5.1. Mapeamento do Modelo Conceitual para o Modelo Lógico
+### 5.1. Mapeamento do Modelo Conceitual para o Modelo Lógico
 
-DEPARTAMENTO()  
+🚧
+DEPARTAMENTO()
 DISCIPLINA()
-PROFESSOR()  
-CURSO()  
-ALUNO()  
-MATRICULADO()  
-INSCRITO()  
-TURMA()  
-SALA()  
+PROFESSOR()
+CURSO()
+ALUNO()
+MATRICULADO()
+INSCRITO()
+TURMA()
+SALA()
 
 ### 6. Modelo Físico
 

@@ -29,11 +29,13 @@ Aluno, Professor, Disciplina, Curso, Departamento, Turma e Sala.
 
 ### 4. Modelo Conceitual
 
-# IMAGEM
+![CONCEITUAL](https://github.com/andrefernandeslp1/bd-escola/assets/92834067/101aa06b-462b-4457-bd53-088c55515437)
+
 
 ### 5. Modelo Lógico
 
-# IMAGEM
+![LOGICO](https://github.com/andrefernandeslp1/bd-escola/assets/92834067/5ed040e0-b99f-45b3-9f9f-ec68be67ff1a)
+
 
 ### 🚧 5.1. Mapeamento do Modelo Conceitual para o Modelo Lógico
 

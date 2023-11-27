@@ -74,7 +74,9 @@ Acesse o arquivo [`selects.sql`](https://github.com/andrefernandeslp1/bd-escola/
 
 ### 6.4.1. Retorno das Consultas
 
-# 🚧 IMAGENS
+Retorno das duas primeiras consultas:  
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta1.PNG)
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta2.PNG)
 
 ### 7. Conclusão
 

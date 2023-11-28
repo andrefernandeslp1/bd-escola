@@ -16,7 +16,7 @@ SELECT NOME_ALUNO FROM ALUNO WHERE DATA_NASC >= "01/01/1995";
 
 -- (5)	Consulta com Ordenação: ordenação dos resultados com base em critérios específicos.
 
-SELECT NOME_ALUNO FROM ALUNO ORDER BY NOME_ALUNO;
+SELECT ID_ALUNO,NOME_ALUNO, DATA_NASC FROM ALUNO ORDER BY NOME_ALUNO;
 
 -- (6)	Consulta com Subconsulta: incorporação de uma subconsulta para obter informações mais detalhadas.
 

@@ -39,24 +39,23 @@ Aluno, Professor, Disciplina, Curso, Departamento, Turma e Sala.
 
 ### 5.1. Mapeamento do Modelo Conceitual para o Modelo Lógico
 
-🚧  
-DEPARTAMENTO (#ID_Dep, Nome_Dep, Local, Telefone)  
-DISCIPLINA (#ID_Disc, Nome_Disc, @ID_Dep, Carga_Hor)  
-PROFESSOR (#ID_Prof, Nome_Prof, Email_Prof, Data_Nasc, @ID_Dep)  
-CURSO (#ID_Curso, Nome_Curso, @ID_Dep)  
-ALUNO (#ID_Aluno, Nome_Aluno, Email_Aluno, Data_Nasc, Matricula, @ID_Curso)  
-MATRICULADO (@ID_Aluno, @ID_Curso, Data_Mat)  
-INSCRITO (@ID_Aluno, @ID_Turma, Data_Insc)  
-TURMA (#ID_Turma, Horario, @ID_Prof, @ID_Disc, @ID_Sala)  
-SALA (#ID_Sala, Local)  
+DEPARTAMENTO (#ID_Dep, Nome_Dep, Local, Telefone)
+DISCIPLINA (#ID_Disc, Nome_Disc, @ID_Dep, Carga_Hor)
+PROFESSOR (#ID_Prof, Nome_Prof, Email_Prof, Data_Nasc, @ID_Dep)
+CURSO (#ID_Curso, Nome_Curso, @ID_Dep)
+ALUNO (#ID_Aluno, Nome_Aluno, Email_Aluno, Data_Nasc, Matricula, @ID_Curso)
+MATRICULADO (@ID_Aluno, @ID_Curso, Data_Mat)
+INSCRITO (@ID_Aluno, @ID_Turma, Data_Insc)
+TURMA (#ID_Turma, Horario, @ID_Prof, @ID_Disc, @ID_Sala)
+SALA (#ID_Sala, Local)
 
 ### 6. Modelo Físico
 
 ### 6.1. Criação do Banco de Dados
 
-Execute o comando `slqlite3 escola.db` para criar/acessar o banco de dados.  
-Em seguida, execute o comando `.mode column` para definir o modo de exibição para colunas.  
-Execute também `.headers on` para ativar a exibição de cabeçalhos.  
+Execute o comando `slqlite3 escola.db` para criar/acessar o banco de dados.
+Em seguida, execute o comando `.mode column` para definir o modo de exibição para colunas.
+Execute também `.headers on` para ativar a exibição de cabeçalhos.
 
 ![captura1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/captura1.PNG)
 
@@ -74,16 +73,16 @@ Acesse o arquivo [`selects.sql`](https://github.com/andrefernandeslp1/bd-escola/
 
 ### 6.4.1. Retorno das Consultas
 
-Retorno da primeira consulta, Consulta Simples:  
-![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta1.PNG)  
-Retorno da segunda consulta, Consulta de Junção:  
-![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta2.PNG)  
-Retorno da terceira consulta, Consulta de Agregação:  
-![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta3.png)  
-Retorno da quinta consulta, Consulta com Ordenação:  
-![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta5.png)  
-Retono da setima consulta, Consulta com União:  
-![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta7.png)  
+Retorno da primeira consulta, Consulta Simples:
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta1.PNG)
+Retorno da segunda consulta, Consulta de Junção:
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta2.PNG)
+Retorno da terceira consulta, Consulta de Agregação:
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta3.png)
+Retorno da quinta consulta, Consulta com Ordenação:
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta5.png)
+Retono da setima consulta, Consulta com União:
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta7.png)
 
 
 ### 7. Conclusão

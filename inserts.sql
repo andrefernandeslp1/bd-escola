@@ -2,16 +2,16 @@ INSERT INTO DEPARTAMENTO VALUES (1, 'Departamento de Tecnologia', 'NATAL', '1234
 INSERT INTO DEPARTAMENTO VALUES (2, 'Departamento de Humanas', 'NATAL', '1234-5678');
 INSERT INTO DEPARTAMENTO VALUES (3, 'Departamento de Saude', 'NATAL', '1234-5678');
 
-INSERT INTO PROFESSOR VALUES (1, 'João', '01/01/1990', NULL, 1);
-INSERT INTO PROFESSOR VALUES (2, 'Maria', '01/01/1991', NULL, 2);
-INSERT INTO PROFESSOR VALUES (3, 'José', '01/01/1995', NULL, 3);
-INSERT INTO PROFESSOR VALUES (4, 'Ana', '01/01/1994', NULL, 1);
-INSERT INTO PROFESSOR VALUES (5, 'Pedro', '01/01/2000', NULL, 2);
-INSERT INTO PROFESSOR VALUES (6, 'Paulo', '01/01/1999', NULL, 3);
-INSERT INTO PROFESSOR VALUES (7, 'Carlos', '01/01/1998', NULL, 1);
-INSERT INTO PROFESSOR VALUES (8, 'Marcos', '01/01/1997', NULL, 2);
-INSERT INTO PROFESSOR VALUES (9, 'Lucas', '01/01/1999', NULL, 3);
-INSERT INTO PROFESSOR VALUES (10, 'Mateus', '01/01/1996', NULL, 1);
+INSERT INTO PROFESSOR VALUES (1, 'João Carlos', '01/01/1990', 'manojc@gmail.com', 1);
+INSERT INTO PROFESSOR VALUES (2, 'Maria Eduarda', '01/01/1991', 'duda@gmail.com', 2);
+INSERT INTO PROFESSOR VALUES (3, 'José Maria', '01/01/1995', 'zemaria@gmail.com', 3);
+INSERT INTO PROFESSOR VALUES (4, 'Ana Clara', '01/01/1994', 'aninha_ac@gmail.com', 1);
+INSERT INTO PROFESSOR VALUES (5, 'Pedro Algustos', '01/01/2000', 'algustos@gmail.com', 2);
+INSERT INTO PROFESSOR VALUES (6, 'Paulo Eduardo', '01/01/1999', 'paulo.edu@gmail.com', 3);
+INSERT INTO PROFESSOR VALUES (7, 'Carlos Algustos', '01/01/1998', 'carlos_algustos@gmail.com', 1);
+INSERT INTO PROFESSOR VALUES (8, 'Marcos Paulo', '01/01/1997', 'marcos.paulo@gmail.com', 2);
+INSERT INTO PROFESSOR VALUES (9, 'Lucas Matheus', '01/01/1999', 'lucasmate@gmail.com', 3);
+INSERT INTO PROFESSOR VALUES (10, 'Mateus Vinicius', '01/01/1996', 'mateusVini@gmail.com', 1);
 
 INSERT INTO DISCIPLINA VALUES (1, 'Matemática', 60, 1);
 INSERT INTO DISCIPLINA VALUES (2, 'Física', 60, 1);
@@ -53,16 +53,16 @@ INSERT INTO TURMA VALUES (8, '24N34', 8, 8, 2);
 INSERT INTO TURMA VALUES (9, '6T1234', 9, 9, 3);
 INSERT INTO TURMA VALUES (10, '35M56', 10, 10, 4);
 
-INSERT INTO ALUNO VALUES (1, 'João', '01/01/1990', NULL, 1);
-INSERT INTO ALUNO VALUES (2, 'Maria', '01/01/1991', NULL, 2);
-INSERT INTO ALUNO VALUES (3, 'José', '01/01/1995', NULL, 3);
-INSERT INTO ALUNO VALUES (4, 'Ana', '01/01/1994', NULL, 4);
-INSERT INTO ALUNO VALUES (5, 'Pedro', '01/01/2000', NULL, 5);
-INSERT INTO ALUNO VALUES (6, 'Paulo', '01/01/1999', NULL, 6);
-INSERT INTO ALUNO VALUES (7, 'Carlos', '01/01/1998', NULL, 7);
-INSERT INTO ALUNO VALUES (8, 'Marcos', '01/01/1997', NULL, 8);
-INSERT INTO ALUNO VALUES (9, 'Lucas', '01/01/1999', NULL, 9);
-INSERT INTO ALUNO VALUES (10, 'Mateus', '01/01/1996', NULL, 10);
+INSERT INTO ALUNO VALUES (1, 'João', '01/01/1990', 'joao@gmail.com', 1);
+INSERT INTO ALUNO VALUES (2, 'Maria', '01/01/1991', 'maria@hotmail.com.br', 2);
+INSERT INTO ALUNO VALUES (3, 'José', '01/01/1995', 'jose@gmail.com.br', 3);
+INSERT INTO ALUNO VALUES (4, 'Ana', '01/01/1994', 'ana_ana@gamil.com', 4);
+INSERT INTO ALUNO VALUES (5, 'Pedro', '01/01/2000', 'pedro@hotmail.com', 5);
+INSERT INTO ALUNO VALUES (6, 'Paulo', '01/01/1999', 'paulo@ufrn.com.br', 6);
+INSERT INTO ALUNO VALUES (7, 'Carlos', '01/01/1998', 'carlos@ufrn.com.br', 7);
+INSERT INTO ALUNO VALUES (8, 'Marcos', '01/01/1997', 'marcos.m@ufrn.com.br', 8);
+INSERT INTO ALUNO VALUES (9, 'Lucas', '01/01/1999', 'lucas@gmail.com', 9);
+INSERT INTO ALUNO VALUES (10, 'Mateus', '01/01/1996', 'matheus@email.com.br', 10);
 
 INSERT INTO MATRICULADO VALUES ('01/01/2018', 1, 1);
 INSERT INTO MATRICULADO VALUES ('01/01/2019', 2, 2);

@@ -75,15 +75,15 @@ Acesse o arquivo [`selects.sql`](https://github.com/andrefernandeslp1/bd-escola/
 ### 6.4.1. Retorno das Consultas
 
 Retorno da primeira consulta, Consulta Simples:  
-![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta1.PNG)
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta1.PNG)  
 Retorno da segunda consulta, Consulta de Junção:  
-![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta2.PNG)
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta2.PNG)  
 Retorno da terceira consulta, Consulta de Agregação:  
-![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta3.png)
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta3.png)  
 Retorno da quinta consulta, Consulta com Ordenação:  
-![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta5.png)
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta5.png)  
 Retono da setima consulta, Consulta com União:  
-![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta7.png)
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta7.png)  
 
 
 ### 7. Conclusão

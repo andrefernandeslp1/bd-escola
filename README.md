@@ -40,15 +40,15 @@ Aluno, Professor, Disciplina, Curso, Departamento, Turma e Sala.
 ### 5.1. Mapeamento do Modelo Conceitual para o Modelo Lógico
 
 🚧  
-DEPARTAMENTO()  
-DISCIPLINA()  
-PROFESSOR()  
-CURSO()  
-ALUNO()  
-MATRICULADO()  
-INSCRITO()  
-TURMA()  
-SALA()  
+DEPARTAMENTO(#ID_Dep, Nome_Dep, Local, Telefone)  
+DISCIPLINA(#ID_Disc, Nome_Disc, @ID_Dep, Carga_Hor)  
+PROFESSOR(#ID_Prof, Nome_Prof, Email_Prof, Data_Nasc, @ID_Dep)  
+CURSO(#ID_Curso, Nome_Curso, @ID_Dep)  
+ALUNO(#ID_Aluno, Nome_Aluno, Email_Aluno, Data_Nasc, Matricula, @ID_Curso)  
+MATRICULADO(@ID_Aluno, @ID_Curso, Data_Mat)  
+INSCRITO(@ID_Aluno, @ID_Turma, Data_Insc)  
+TURMA(#ID_Turma, Horario, @ID_Prof, @ID_Disc, @ID_Sala)  
+SALA(#ID_Sala, Local)  
 
 ### 6. Modelo Físico
 

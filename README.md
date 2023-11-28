@@ -77,6 +77,8 @@ Acesse o arquivo [`selects.sql`](https://github.com/andrefernandeslp1/bd-escola/
 Retorno das duas primeiras consultas:  
 ![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta1.PNG)
 ![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta2.PNG)
+![consulta1](https://github.com/andrefernandeslp1/bd-escola/blob/main/auxiliar/consulta7.png)
+
 
 ### 7. Conclusão
 

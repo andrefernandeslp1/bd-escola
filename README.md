@@ -40,7 +40,7 @@ Aluno, Professor, Disciplina, Curso, Departamento, Turma e Sala.
 ### 5.1. Mapeamento do Modelo Conceitual para o Modelo Lógico
 
 DEPARTAMENTO (#ID_Dep, Nome_Dep, Local, Telefone)  
-DISCIPLINA (#ID_Disc, Nome_Disc, @ID_Dep, Carga_Hor)  
+DISCIPLINA (#ID_Disc, Nome_Disc, @ID_Curso, Carga_Hor)  
 PROFESSOR (#ID_Prof, Nome_Prof, Email_Prof, Data_Nasc, @ID_Dep)  
 CURSO (#ID_Curso, Nome_Curso, @ID_Dep)  
 ALUNO (#ID_Aluno, Nome_Aluno, Email_Aluno, Data_Nasc, Matricula, @ID_Curso)  

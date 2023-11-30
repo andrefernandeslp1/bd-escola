@@ -80,6 +80,8 @@ Retorno da terceira consulta, Consulta de Agregação:
 ![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta3.png)  
 Retorno da quinta consulta, Consulta com Ordenação:  
 ![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta5.png)  
+Retorno da sexta consulta, Consulta com Subconsulta: 
+![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta6.png)  
 Retono da setima consulta, Consulta com União:  
 ![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta7.png)  
 

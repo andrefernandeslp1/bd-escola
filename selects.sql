@@ -24,10 +24,6 @@ SELECT NOME_CURSO FROM CURSO WHERE ID_DEP = (SELECT ID_DEP FROM DEPARTAMENTO WHE
 
 -- (7)	Consulta com União: combinação de resultados de duas consultas.
 
---SELECT NOME_ALUNO FROM ALUNO WHERE ID_CURSO = 1 UNION SELECT NOME_ALUNO FROM ALUNO WHERE ID_CURSO = 2;
-SELECT NOME_ALUNO AS 'pessoas cadastradas',EMAIL, DATA_NASC FROM ALUNOS
-UNION ALL
-SELECT NOME_PROF,EMAIL,DATA_NASC FROM PROFESSOR;
 
 -- (8)	Consulta com Agrupamento: agrupamento de registros com base em critérios específicos.
 

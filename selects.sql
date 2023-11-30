@@ -1,6 +1,14 @@
 -- (1)	Consulta Simples: recuperação de todos os registros de uma tabela específica.
 
+SELECT * FROM DEPARTAMENTO;
+SELECT * FROM PROFESSOR;
+SELECT * FROM DISCIPLINA;
 SELECT * FROM CURSO;
+SELECT * FROM MATRICULADO;
+SELECT * FROM ALUNO;
+SELECT * FROM INSCRITO;
+SELECT * FROM TURMA;
+SELECT * FROM SALA;
 
 -- (2)	Consulta de Junção: combinação de informações de duas ou mais tabelas.
 

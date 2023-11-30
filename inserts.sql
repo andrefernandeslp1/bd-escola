@@ -15,19 +15,7 @@ INSERT INTO PROFESSOR (ID_PROF, NOME_PROF, DATA_NASC, EMAIL, ID_DEP) VALUES
   (9, 'Lucas Matheus', '01/01/1999', 'lucasmate@gmail.com', 3),
   (10, 'Mateus Vinicius', '01/01/1996', 'mateusVini@gmail.com', 1);
 
-INSERT INTO DISCIPLINA (ID_DISC, NOME_DISC, CARGA_HORARIA, ID_DEP) VALUES
-  (1, 'Matemática', 60, 1),
-  (2, 'Física', 60, 1),
-  (3, 'Química', 60, 1),
-  (4, 'Português', 60, 2),
-  (5, 'História', 60, 2),
-  (6, 'Geografia', 60, 2),
-  (7, 'Biologia', 60, 3),
-  (8, 'Educação Física', 60, 3),
-  (9, 'Filosofia', 60, 3),
-  (10, 'Sociologia', 60, 3);
-
-INSERT INTO CURSO VALUES
+INSERT INTO CURSO (ID_CURSO, NOME_CURSO, ID_DEP) VALUES
   (1, 'Engenharia de Software', 1),
   (2, 'Engenharia de Computação', 1),
   (3, 'Engenharia de Produção', 1),
@@ -39,7 +27,39 @@ INSERT INTO CURSO VALUES
   (9, 'Medicina', 3),
   (10, 'Odontologia', 3);
 
-INSERT INTO SALA VALUES
+INSERT INTO DISCIPLINA (ID_DISC, NOME_DISC, CARGA_HORARIA, ID_CURSO) VALUES
+  (1, 'Banco de Dados', 60, 1),
+  (2, 'Programação Orientada a Objetos', 60, 1),
+  (3, 'Estrutura de Dados', 60, 1),
+  (4, 'Direito Civil', 60, 4),
+  (5, 'Direito Penal', 60, 4),
+  (6, 'Direito Constitucional', 60, 4),
+  (7, 'Administração Financeira', 60, 5),
+  (8, 'Administração de Recursos Humanos', 60, 5),
+  (9, 'Administração de Marketing', 60, 5),
+  (10, 'Contabilidade Geral', 60, 6),
+  (11, 'Contabilidade de Custos', 60, 6),
+  (12, 'Contabilidade Gerencial', 60, 6),
+  (13, 'Anatomia', 60, 7),
+  (14, 'Fisiologia', 60, 7),
+  (15, 'Farmacologia', 60, 7),
+  (16, 'Fisioterapia Respiratória', 60, 8),
+  (17, 'Fisioterapia Neurológica', 60, 8),
+  (18, 'Fisioterapia Traumato-Ortopédica', 60, 8),
+  (19, 'Anatomia Humana', 60, 9),
+  (20, 'Fisiologia Humana', 60, 9),
+  (21, 'Farmacologia Humana', 60, 9),
+  (22, 'Anatomia Bucal', 60, 10),
+  (23, 'Fisiologia Bucal', 60, 10),
+  (24, 'Farmacologia Bucal', 60, 10),
+  (25, 'Estrutura de Dados', 60, 2),
+  (26, 'Programação Orientada a Objetos', 60, 2),
+  (27, 'Banco de Dados', 60, 2),
+  (28, 'Matemática', 60, 3),
+  (29, 'Física', 60, 3),
+  (30, 'Química', 60, 3);
+
+INSERT INTO SALA (ID_SALA, CAPACIDADE, LOCALIZACAO) VALUES
   (1, 60, 'Bloco 1'),
   (2, 60, 'Bloco 1'),
   (3, 60, 'Bloco 1'),
@@ -47,19 +67,39 @@ INSERT INTO SALA VALUES
   (5, 60, 'Bloco 2'),
   (6, 60, 'Bloco 2');
 
-INSERT INTO TURMA VALUES
-  (1, '24M12', 1, 1, 1),
-  (2, '24M34', 2, 2, 2),
-  (3, '35T12', 3, 3, 3),
-  (4, '35T56', 4, 4, 4),
-  (5, '6M1234', 5, 5, 5),
-  (6, '46T12', 6, 6, 6),
-  (7, '35N12', 7, 7, 1),
-  (8, '24N34', 8, 8, 2),
-  (9, '6T1234', 9, 9, 3),
-  (10, '35M56', 10, 10, 4);
+INSERT INTO TURMA (ID_TURMA, HORARIO, ID_DISC, ID_PROF, ID_SALA) VALUES
+  (1, '08:00', 1, 1, 1),
+  (2, '10:00', 2, 2, 2),
+  (3, '12:00', 3, 3, 3),
+  (4, '14:00', 4, 4, 4),
+  (5, '16:00', 5, 5, 5),
+  (6, '18:00', 6, 6, 6),
+  (7, '08:00', 7, 7, 1),
+  (8, '10:00', 8, 8, 2),
+  (9, '12:00', 9, 9, 3),
+  (10, '14:00', 10, 10, 4),
+  (11, '16:00', 11, 1, 5),
+  (12, '18:00', 12, 2, 6),
+  (13, '08:00', 13, 3, 1),
+  (14, '10:00', 14, 4, 2),
+  (15, '12:00', 15, 5, 3),
+  (16, '14:00', 16, 6, 4),
+  (17, '16:00', 17, 7, 5),
+  (18, '18:00', 18, 8, 6),
+  (19, '08:00', 19, 9, 1),
+  (20, '10:00', 20, 10, 2),
+  (21, '12:00', 21, 1, 3),
+  (22, '14:00', 22, 2, 4),
+  (23, '16:00', 23, 3, 5),
+  (24, '18:00', 24, 4, 6),
+  (25, '08:00', 25, 5, 1),
+  (26, '10:00', 26, 6, 2),
+  (27, '12:00', 27, 7, 3),
+  (28, '14:00', 28, 8, 4),
+  (29, '16:00', 29, 9, 5),
+  (30, '18:00', 30, 10, 6);
 
-INSERT INTO ALUNO VALUES
+INSERT INTO ALUNO (ID_ALUNO, NOME_ALUNO, DATA_NASC, EMAIL, ID_CURSO) VALUES
   (1, 'João', '01/01/1990', 'joao@gmail.com', 1),
   (2, 'Maria', '01/01/1991', 'maria@hotmail.com.br', 2),
   (3, 'José', '01/01/1995', 'jose@gmail.com.br', 3),
@@ -69,9 +109,29 @@ INSERT INTO ALUNO VALUES
   (7, 'Carlos', '01/01/1998', 'carlos@ufrn.com.br', 7),
   (8, 'Marcos', '01/01/1997', 'marcos.m@ufrn.com.br', 8),
   (9, 'Lucas', '01/01/1999', 'lucas@gmail.com', 9),
-  (10, 'Mateus', '01/01/1996', 'matheus@email.com.br', 10);
+  (10, 'Mateus', '01/01/1996', 'matheus@email.com.br', 10),
+  (11, 'Murilo', '01/01/1990', NULL, 1),
+  (12, 'Luis', '01/01/1991', NULL, 2),
+  (13, 'Rafael', '01/01/1995', NULL, 3),
+  (14, 'Guilherme', '01/01/1994', NULL, 4),
+  (15, 'Gabriel', '01/01/2000', NULL, 5),
+  (16, 'Enzo', '01/01/1999', NULL, 6),
+  (17, 'Gustavo', '01/01/1998', NULL, 7),
+  (18, 'Nicolas', '01/01/1997', NULL, 8),
+  (19, 'Pedrita', '01/01/1999', NULL, 9),
+  (20, 'Felipe', '01/01/1996', NULL, 10),
+  (21, 'Rocky', '01/01/1990', NULL, 1),
+  (22, 'Mariana', '01/01/1991', NULL, 2),
+  (23, 'Josué', '01/01/1995', NULL, 3),
+  (24, 'Anamaria', '01/01/1994', NULL, 4),
+  (25, 'Pedroso', '01/01/2000', NULL, 5),
+  (26, 'Paulito', '01/01/1999', NULL, 6),
+  (27, 'Carlito', '01/01/1998', NULL, 7),
+  (28, 'Marquito', '01/01/1997', NULL, 8),
+  (29, 'Lucasso', '01/01/1999', NULL, 9),
+  (30, 'Matesudo', '01/01/1996', NULL, 10);
 
-INSERT INTO MATRICULADO VALUES
+INSERT INTO MATRICULADO (DATA_MAT, ID_ALUNO, ID_CURSO) VALUES
   ('01/01/2018', 1, 1),
   ('01/01/2019', 2, 2),
   ('01/01/2020', 3, 3),
@@ -81,9 +141,29 @@ INSERT INTO MATRICULADO VALUES
   ('01/01/2018', 7, 7),
   ('01/01/2019', 8, 8),
   ('01/01/2020', 9, 9),
-  ('01/01/2021', 10, 10);
+  ('01/01/2021', 10, 10),
+  ('01/01/2022', 11, 1),
+  ('01/01/2023', 12, 2),
+  ('01/01/2018', 13, 3),
+  ('01/01/2019', 14, 4),
+  ('01/01/2020', 15, 5),
+  ('01/01/2021', 16, 6),
+  ('01/01/2022', 17, 7),
+  ('01/01/2023', 18, 8),
+  ('01/01/2018', 19, 9),
+  ('01/01/2019', 20, 10),
+  ('01/01/2020', 21, 1),
+  ('01/01/2021', 22, 2),
+  ('01/01/2022', 23, 3),
+  ('01/01/2023', 24, 4),
+  ('01/01/2018', 25, 5),
+  ('01/01/2019', 26, 6),
+  ('01/01/2020', 27, 7),
+  ('01/01/2021', 28, 8),
+  ('01/01/2022', 29, 9),
+  ('01/01/2023', 30, 10);
 
-INSERT INTO INSCRITO VALUES
+INSERT INTO INSCRITO (ID_ALUNO, ID_TURMA, DATA_INSC) VALUES
   (1, 1, '01/01/2023'),
   (2, 2, '01/01/2023'),
   (3, 3, '01/01/2023'),
@@ -93,4 +173,24 @@ INSERT INTO INSCRITO VALUES
   (7, 7, '01/01/2023'),
   (8, 8, '01/01/2023'),
   (9, 9, '01/01/2023'),
-  (10, 10, '01/01/2023');
+  (10, 10, '01/01/2023'),
+  (11, 11, '01/01/2023'),
+  (12, 12, '01/01/2023'),
+  (13, 13, '01/01/2023'),
+  (14, 14, '01/01/2023'),
+  (15, 15, '01/01/2023'),
+  (16, 16, '01/01/2023'),
+  (17, 17, '01/01/2023'),
+  (18, 18, '01/01/2023'),
+  (19, 19, '01/01/2023'),
+  (20, 20, '01/01/2023'),
+  (21, 21, '01/01/2023'),
+  (22, 22, '01/01/2023'),
+  (23, 23, '01/01/2023'),
+  (24, 24, '01/01/2023'),
+  (25, 25, '01/01/2023'),
+  (26, 26, '01/01/2023'),
+  (27, 27, '01/01/2023'),
+  (28, 28, '01/01/2023'),
+  (29, 29, '01/01/2023'),
+  (30, 30, '01/01/2023');

@@ -32,6 +32,8 @@ SELECT NOME_CURSO FROM CURSO WHERE ID_DEP = (SELECT ID_DEP FROM DEPARTAMENTO WHE
 
 -- (7)	Consulta com União: combinação de resultados de duas consultas.
 
+SELECT NOME_ALUNO,DATA_NASC, NOME_CURSO FROM ALUNO
+INNER JOIN CURSO USING(ID_CURSO);
 
 -- (8)	Consulta com Agrupamento: agrupamento de registros com base em critérios específicos.
 

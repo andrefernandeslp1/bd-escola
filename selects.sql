@@ -41,7 +41,7 @@ SELECT NOME_CURSO, COUNT(*) AS "QUANTIDADE DE ALUNOS" FROM CURSO, ALUNO WHERE CU
 
 -- (9)	Consulta com Limite: restrição do número de resultados retornados.
 
-SELECT NOME_PROF FROM PROFESSOR LIMIT 5;
+SELECT ID_PROF, NOME_PROF FROM PROFESSOR ORDER BY NOME_PROF LIMIT 5;
 
 -- (10)	Consulta Complexa: desenvolvimento de uma consulta mais complexa que envolva múltiplas tabelas e condições.
 

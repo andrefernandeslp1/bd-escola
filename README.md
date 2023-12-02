@@ -85,7 +85,12 @@ Retorno da sexta consulta, Consulta com Subconsulta:
 ![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta6.png)  
 Retono da setima consulta, Consulta com União:  
 ![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta7.png)  
-
+Retono da oitava consulta, Consulta com Agrupamento:  
+![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta8.png)  
+Retono da nona consulta, Consulta com Limite:  
+![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta9.png)  
+Retono da decima consulta, Consulta Complexa:  
+![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta10.png)  
 
 ### 7. Conclusão
 

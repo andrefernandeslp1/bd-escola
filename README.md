@@ -79,6 +79,8 @@ Retorno da segunda consulta, Consulta de Junção:
 ![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta2.PNG)  
 Retorno da terceira consulta, Consulta de Agregação:  
 ![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta3.png)  
+Retorno da quarta consulta, Consulta com Filtro:  
+![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta4.png)  
 Retorno da quinta consulta, Consulta com Ordenação:  
 ![consulta1](https://raw.githubusercontent.com/andrefernandeslp1/bd-escola/main/auxiliar/consulta5.png)  
 Retorno da sexta consulta, Consulta com Subconsulta: 
